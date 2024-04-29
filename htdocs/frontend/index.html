@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Estudiantes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Portal de Estudiantes</h1>
+    </header>
+    <main>
+        <h2 class="titulos" id="tituloUsuarios">Lista de Usuarios</h2>
+<h2 class="titulos" id="tituloRoles">Lista de Roles</h2>
+    </main>
+    <footer>
+        <p>&copy; 2024 Portal de Estudiantes</p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        // Redirigir a la página de usuarios al hacer clic en el título
+    document.getElementById('tituloUsuarios').addEventListener('click', function() {
+        window.location.href = '/usuarios';
+    });
+
+    // Redirigir a la página de roles al hacer clic en el título
+    document.getElementById('tituloRoles').addEventListener('click', function() {
+        window.location.href = '/roles';
+    });
+    </script>
+</body>
+</html>
+
+

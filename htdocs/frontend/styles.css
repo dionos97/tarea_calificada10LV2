@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E0F2F1; /* Celeste */
+    color: #FFFFFF; /* Blanco */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #009688; /* Verde */
+    color: #FFFFFF; /* Blanco */
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #009688; /* Verde */
+}
+h2:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #009688; /* Verde */
+    color: #FFFFFF; /* Blanco */
+    padding: 10px 0;
+    text-align: center;
+}
